@@ -13,6 +13,12 @@
 		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>net.svw</groupId>
+			<artifactId>shoppingbackend1</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JAVA EE API -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
@@ -32,35 +38,35 @@
 		</dependency>
 		<!-- SPRING -->
 		<dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+			<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
-    <version>${spring.version}</version>
-</dependency>
-		
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
 		<!-- JSTL -->
 		<dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+			<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 
-    <groupId>jstl</groupId>
-    <artifactId>jstl</artifactId>
-    <version>1.2</version>
-</dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 	</dependencies>
 	<build>
-	<plugins>
-	<!-- Update to Latest Version of java -->
-	 <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
-        <configuration>
-        
-        <source>1.8</source>
-        <target>1.8</target>
-        </configuration>
-        </plugin>
-	</plugins>
+		<plugins>
+			<!-- Update to Latest Version of java -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
 		<finalName>onlineshopping1</finalName>
 	</build>
 </project>

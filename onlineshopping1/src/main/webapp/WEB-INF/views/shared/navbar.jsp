@@ -2,7 +2,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbarCollapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -16,11 +16,12 @@
                     <li id="about">
                         <a href="${contextRoot}/about">About</a>
                     </li>
-                    <li id="listproducts">
-                        <a href="${contextroot}/listproducts">View Products</a>
-                    </li>
+                   
                     <li id="contact">
                         <a href="${contextRoot}/contact">Contact</a>
+                    </li>
+                     <li id="listProducts">
+                        <a href="${contextRoot}/show/all/products">View Products</a>
                     </li>
                 </ul>
             </div>
